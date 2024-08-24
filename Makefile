@@ -6,7 +6,7 @@ CFLAGS = -include Tweak.h
 ifeq ($(NAI_TARGET),iOS)
 
 # iOS (native)
-ARCHS = arm64e arm64 armv7
+ARCHS = arm64e arm64
 TARGET := iphone:clang:latest:6.0
 CFLAGS += -DNAI_TARGET_IOS=1
 
